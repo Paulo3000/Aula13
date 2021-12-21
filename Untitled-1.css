@@ -1,11 +1,14 @@
 nav#menu ul {
   list-style: none;
   text-transform: uppercase;
+  position: absolute;
+  top: -12px;
+  left: 300px;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: rgb(10, 0, 0);
+    background-color: rgb(17, 133, 36);
     padding: 10px;
     margin: 2px;
 }
@@ -14,4 +17,10 @@ a{
 }
 nav#menu{
     display: block;
+}
+nav#menu h1{
+ display: none;
+}
+nav#menu li:hover{
+    background-color: red;
 }
