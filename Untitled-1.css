@@ -1,0 +1,17 @@
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(10, 0, 0);
+    padding: 10px;
+    margin: 2px;
+}
+a{
+    color: white;
+}
+nav#menu{
+    display: block;
+}
